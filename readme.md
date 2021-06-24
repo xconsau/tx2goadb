@@ -19,6 +19,7 @@ The [AFDKO](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html) is a s
 
 
 - Extract glyphs data from font object
+	
 		tx -dump -4 your_font_file.ttf
 
 - Copy the output in a text file and name it <code>tx.txt</code>. The format of this file will be like shown below:
@@ -31,6 +32,7 @@ glyph[4] {S,U+0053}
 ...</pre>
 
 - From the same source folder, generate 'GlyphOrderAndAliasDB' file by running this script
+		
 		tx2goadb.py
 
 - A new file named 'GlyphOrderAndAliasDB' will be generated in the same folder. The stripped format will be as shown below:
