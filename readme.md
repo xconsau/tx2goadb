@@ -1,7 +1,7 @@
 TX to GlyphOrderAndAliasDB
 ===============================================
 
-tx2goadb is a small script for stripping raw dump data of tx tool in ADFDKO. This script was created to generate a format as required in GlyphOrderAndAliasDB file for adding OpenType features to a font file.
+tx2goadb is a small script for stripping raw dump data of the [tx tool](https://ccjktype.fonts.adobe.com/2012/04/tx.html) of [AFDKO](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html). This script was created to generate a format as required in GlyphOrderAndAliasDB file for adding OpenType features to a font file.
 
 The [AFDKO](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html) is a set of tools for building OpenType font files from PostScript and TrueType font data.
 
